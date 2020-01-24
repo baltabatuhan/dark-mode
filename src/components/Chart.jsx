@@ -24,7 +24,7 @@ const Chart = ({ sparklineData }) => {
       }
       return null;
     })
-    .filter(data => data);
+    .filter((data) => data);
 
   return (
     <LineChart width={1100} height={300} data={formattedData}>
